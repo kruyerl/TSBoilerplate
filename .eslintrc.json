@@ -1,0 +1,16 @@
+{
+	"root": true,
+	"extends": ["wesbos"],
+	"rules": {
+	    "no-console": 1,
+	    "prettier/prettier": [
+		"error",
+		{
+		    "operator-linebreak": "before",
+				    "trailingComma": "none",
+				    "singleQuote": true,
+				    "semi": false
+		}
+	    ]
+	}
+    }
